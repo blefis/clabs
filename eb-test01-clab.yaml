@@ -1,0 +1,11 @@
+name: eb-test01-clab
+
+topology:
+  defaults:
+    kind: vr-sros
+    image: 'registry.srlinux.dev/pub/vr-sros:23.10.R1'
+    license: license.txt
+
+  nodes:
+    R01:
+      type: ixr-e2
