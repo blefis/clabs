@@ -1,11 +1,10 @@
 name: eb-test01
 
 topology:
-  defaults:
-    kind: vr-sros
-    image: 'registry.srlinux.dev/pub/vr-sros:23.10.R1'
-    license: license.txt
 
   nodes:
     R01:
+      kind: nokia_sros
+      image: 'ghcr.io/blefis/sros:23.10.R1'
+      license: license.txt
       type: ixr-e2
