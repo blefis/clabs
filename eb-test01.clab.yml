@@ -1,4 +1,4 @@
-name: eb-test01-clab
+name: eb-test01
 
 topology:
   defaults:
