@@ -6,7 +6,7 @@
         "storage": "32gb"
     },
     "containerEnv": {
-      "GHCR_PAT": "${{ secrets.GHCR_PAT }}"
+      "GHCR_PAT2": "${{ secrets.GHCR_PAT }}"
     }
     
 }
