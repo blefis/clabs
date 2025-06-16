@@ -4,9 +4,5 @@
         "cpus": 4,
         "memory": "16gb",
         "storage": "32gb"
-    },
-    "containerEnv": {
-      "GHCR_PAT": "${{ secrets.GHCR_PAT }}"
     }
-    
 }
