@@ -13,5 +13,6 @@
     "workspaceMount": "source=${localWorkspaceFolder},target=${localWorkspaceFolder},type=bind,consistency=cached",
     "containerEnv": {
       "GHCR_PAT": "${{ secrets.GHCR_PAT }}"
-    }
+    },  
+    "postStartCommand": "./scripts/ghcr-login.sh"
 }
